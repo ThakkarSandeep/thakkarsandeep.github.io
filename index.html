@@ -1,1 +1,213 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Thakkar | Senior Software Engineer & Solutions Architect</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117; /* GitHub Dark Mode Canvas */
+        }
+        .glow-effect:hover {
+            box-shadow: 0 0 15px rgba(2, 132, 199, 0.4);
+            border-color: #0284c7;
+        }
+    </style>
+</head>
+<body class="text-gray-300 antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- NAVIGATION HEADER -->
+    <header class="border-b border-gray-800 bg-[#161b22] sticky top-0 z-50">
+        <div class="max-w-50rem mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-sm">ST</div>
+                <span class="font-semibold text-white tracking-wide">Sandeep Thakkar</span>
+            </div>
+            <nav class="flex gap-6 text-sm font-medium">
+                <a href="#about" class="text-gray-400 hover:text-sky-500 transition-colors">About</a>
+                <a href="#skills" class="text-gray-400 hover:text-sky-500 transition-colors">Skills</a>
+                <a href="#highlights" class="text-gray-400 hover:text-sky-500 transition-colors">Highlights</a>
+                <a href="#credentials" class="text-gray-400 hover:text-sky-500 transition-colors">Credentials</a>
+                <a href="#connect" class="text-gray-400 hover:text-sky-500 transition-colors">Connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN PROFILE CONTAINER -->
+    <main class="max-w-50rem mx-auto px-4 py-12 flex-grow w-full">
+        
+        <!-- HERO / ABOUT SECTION -->
+        <section id="about" class="mb-16 scroll-mt-24">
+            <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 sm:p-8 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-4 opacity-10">
+                    <i class="fa-brands fa-github text-9xl text-white"></i>
+                </div>
+                <div class="flex flex-col md:flex-row gap-6 items-start md:items-center mb-6">
+                    <div>
+                        <h1 class="text-3xl sm:text-4xl font-extrabold text-white mb-2 tracking-tight">
+                            👋 Hi, I'm Sandeep Thakkar
+                        </h1>
+                        <p class="text-lg sm:text-xl font-semibold text-sky-500 uppercase tracking-wider text-sm">
+                            Senior Software Engineer / Solutions Architect
+                        </p>
+                    </div>
+                </div>
+                <hr class="border-gray-800 my-4">
+                <p class="text-gray-300 leading-relaxed text-justify text-[10.5pt]">
+                    Welcome to my technical space! I am an enterprise-grade engineer with over <strong>12+ years of professional experience</strong>[cite: 5, 6] architecting high-performance multi-tenant SaaS applications, full-stack ecosystems, and highly scalable cloud architectures. I specialize in building deep integrations (E-commerce, CRMs, Payment Routers) and pioneering <strong>AI-augmented development workflows</strong> alongside custom conversational LLM tools.
+                </p>
+            </div>
+        </section>
+
+        <!-- TECH STACK & ECOSYSTEM SECTION -->
+        <section id="skills" class="mb-16 scroll-mt-24">
+            <h2 class="text-xl font-bold text-white uppercase tracking-wider mb-6 flex items-center gap-2">
+                <i class="fa-solid : tool tool-box fa-wrench text-sky-500"></i> Tech Stack & Ecosystem
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <!-- Backend Engineering -->
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5 glow-effect transition-all duration-300">
+                    <h3 class="text-white font-bold mb-3 flex items-center gap-2"><i class="fa-solid fa-code text-sky-500"></i> Backend Engineering</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><strong class="text-gray-400">PHP Ecosystem:</strong> Laravel 13, Livewire 4, Filament v5, CodeIgniter, PHPUnit, Pest PHP</li>
+                        <li><strong class="text-gray-400">JavaScript Ecosystem:</strong> Node.js, NestJS, Express.js</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend Engineering -->
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5 glow-effect transition-all duration-300">
+                    <h3 class="text-white font-bold mb-3 flex items-center gap-2"><i class="fa-solid fa-laptop-code text-sky-500"></i> Frontend Engineering</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><strong class="text-gray-400">UI & State Management:</strong> React.js, JavaScript (ES6+), Tailwind CSS, Bootstrap, HTML5, CSS3</li>
+                    </ul>
+                </div>
+
+                <!-- AI Engineering & Automation -->
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5 glow-effect transition-all duration-300">
+                    <h3 class="text-white font-bold mb-3 flex items-center gap-2"><i class="fa-solid fa-robot text-sky-500"></i> AI Engineering & Automation</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><strong class="text-gray-400">Core AI Protocols:</strong> Anthropic Model Context Protocol (MCP) Server Integration, OpenAI API & Anthropic API Orchestration</li>
+                        <li><strong class="text-gray-400">AI-Augmented Workflows:</strong> Advanced development velocity via Cursor AI, Windsurf, and KIRO configurations</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud, DevOps & SaaS -->
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5 glow-effect transition-all duration-300">
+                    <h3 class="text-white font-bold mb-3 flex items-center gap-2"><i class="fa-solid fa-cloud text-sky-500"></i> Cloud & SaaS Architecture</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><strong class="text-gray-400">Cloud & DevOps:</strong> AWS (EC2, RDS, S3, IAM, SES, Amplify), Docker, PM2, CI/CD pipelines</li>
+                        <li><strong class="text-gray-400">SaaS Architectural Patterns:</strong> Multi-tenant database isolation models, subscription management frameworks</li>
+                    </ul>
+                </div>
+
+                <!-- Integrations & Databases -->
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5 md:col-span-2 glow-effect transition-all duration-300">
+                    <h3 class="text-white font-bold mb-3 flex items-center gap-2"><i class="fa-solid fa-circle-nodes text-sky-500"></i> Integrations & Databases</h3>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+                        <li><strong class="text-gray-400">Data Stores:</strong> MySQL, PostgreSQL, MongoDB, SQLite</li>
+                        <li><strong class="text-gray-400">Enterprise Integrations:</strong> Crisp Chat API, Magento 2 REST API, Vtiger CRM Customization, Unified Payment Gateways</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- KEY TECHNICAL HIGHLIGHTS SECTION -->
+        <section id="highlights" class="mb-16 scroll-mt-24">
+            <h2 class="text-xl font-bold text-white uppercase tracking-wider mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-rocket text-sky-500"></i> Key Technical Highlights
+            </h2>
+            <div class="space-y-4">
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5">
+                    <h3 class="text-white font-bold text-md mb-2"><i class="fa-solid fa-comment-dots text-sky-500 mr-2"></i> Custom LLM Tooling</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed text-justify">
+                        Deployed automated AI Customer Chatbots by orchestrating Claude and GPT models directly with Crisp Chat widgets via secure webhook pipes—driving instant context-aware query resolution[cite: 5].
+                    </p>
+                </div>
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5">
+                    <h3 class="text-white font-bold text-md mb-2"><i class="fa-solid fa-cart-flatbed-suitcases text-sky-500 mr-2"></i> E-Commerce Data Syncing</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed text-justify">
+                        Engineered high-throughput Magento 2 REST API data pipelines managing real-time stock matrixes, distributed inventory states, and transactional multi-channel endpoints[cite: 5].
+                    </p>
+                </div>
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5">
+                    <h3 class="text-white font-bold text-md mb-2"><i class="fa-solid fa-diagram-project text-sky-500 mr-2"></i> Next-Gen Architecture</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed text-justify">
+                        Designing and embedding microservices with NestJS hooked into Anthropic's Model Context Protocol (MCP) to achieve automated, context-aware engineering tasks[cite: 5].
+                    </p>
+                </div>
+                <div class="bg-[#161b22] border border-gray-800 rounded-xl p-5">
+                    <h3 class="text-white font-bold text-md mb-2"><i class="fa-solid fa-shield-halved text-sky-500 mr-2"></i> Bulletproof QA Pipelines</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed text-justify">
+                        Implementing comprehensive Test-Driven Development (TDD) loops and end-to-end automated browser automation infrastructure using Playwright and Cypress[cite: 5].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CREDENTIALS & COMMUNITY SECTION -->
+        <section id="credentials" class="mb-16 scroll-mt-24">
+            <h2 class="text-xl font-bold text-white uppercase tracking-wider mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap text-sky-500"></i> Credentials & Community
+            </h2>
+            <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 space-y-6">
+                <div>
+                    <h3 class="text-white font-bold text-md mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-certificate text-sky-500 text-sm"></i> Anthropic Official AI Specializations (Anthropic Academy)
+                    </h3>
+                    <p class="text-sm text-gray-400 pl-6 italic">
+                        Introduction to Model Context Protocol (MCP) • Claude with the Anthropic API • Claude Code in Action[cite: 5]
+                    </p>
+                </div>
+                <hr class="border-gray-800">
+                <div>
+                    <h3 class="text-white font-bold text-md mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-users text-sky-500 text-sm"></i> Community Leadership & Presence
+                    </h3>
+                    <p class="text-sm text-gray-400 pl-6 leading-relaxed">
+                        Active participant in <strong>Laracon India 2026 (Ahmedabad)</strong> and Laracon India 2025 (Gandhinagar)[cite: 5]; monthly attendee and contributor inside the Laravel Ahmedabad engineering user groups[cite: 5].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="connect" class="scroll-mt-24">
+            <h2 class="text-xl font-bold text-white uppercase tracking-wider mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-envelope text-sky-500"></i> Let's Connect!
+            </h2>
+            <div class="bg-[#161b22] border border-gray-800 rounded-xl p-6 text-center">
+                <p class="text-gray-300 mb-6 text-sm">
+                    Feel free to explore my repositories or reach out for collaboration on architecture, SaaS development, or custom AI solutions[cite: 5].
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+                    <a href="https://www.linkedin.com/in/sandeep-thakkar-a02a0b67/" target="_blank" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors flex items-center gap-2 shadow-md">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:thakkarsandeep8@gmail.com" class="px-5 py-2.5 bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 rounded-lg transition-colors flex items-center gap-2 shadow-md">
+                        <i class="fa-solid fa-paper-plane"></i> Email Me
+                    </a>
+                </div>
+                <p class="text-gray-500 text-xs mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-location-dot"></i> Based in Ahmedabad, Gujarat, India[cite: 5]
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 bg-[#161b22] py-6 text-center text-xs text-gray-500">
+        <div class="max-w-50rem mx-auto px-4">
+            <p>&copy; 2026 Sandeep Thakkar. Built using Tailwind CSS & FontAwesome. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
